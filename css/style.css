@@ -1,18 +1,22 @@
 body {background-image: url("../images/background.jpg");
 	background-size:cover;}
 
-.logo {img src=url("../images/logo.png");}
+.logo {
+	width:20px;
+}
 
 .header {
 	padding:20px;
 }
 
 .title {
-	border:3px;
-	border-color: black;
-	
 	font-size: 50px;
 	border-style:solid;
+}
+
+.left-menu {
+	float:left;
+	width:20%;
 }
 
 .dropbtn {
@@ -31,17 +35,19 @@ body {background-image: url("../images/background.jpg");
 .dropdown-menu:hover {
 	color:red;
 }
-
 a {
 	text-decoration: none;
 	padding-left:30px;
 	font-size:20px;
 	color:black;
 }
-
 a:hover {
 	color:red;
-	padding-left:40px;
+}
+
+.big-leaf-maple{
+  float: right;
+  width: 50%;
 }
 
 
