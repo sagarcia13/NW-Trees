@@ -3,9 +3,16 @@ body {background-image: url("../images/background.jpg");
 
 .logo {img src=url("../images/logo.png");}
 
+.header {
+	padding:20px;
+}
+
 .title {
 	border:3px;
 	border-color: black;
+	
+	font-size: 50px;
+	border-style:solid;
 }
 
 .dropbtn {
@@ -18,10 +25,23 @@ body {background-image: url("../images/background.jpg");
 .tree-button {
 	background-color: transparent;
 	border-color:transparent;
+	font-size: 21px;
 }
 
-.tree-button:hover {
+.dropdown-menu:hover {
 	color:red;
+}
+
+a {
+	text-decoration: none;
+	padding-left:30px;
+	font-size:20px;
+	color:black;
+}
+
+a:hover {
+	color:red;
+	padding-left:40px;
 }
 
 
