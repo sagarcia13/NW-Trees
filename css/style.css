@@ -1,8 +1,16 @@
 body {background-image: url("../images/background.jpg");
 	background-size:cover;}
 
-.logo {
-	width:20px;
+
+.title img {
+	width:50px;
+}
+
+.logo-text {
+	border:3px solid black;
+	padding:8px 10px;
+	margin-left:20px;
+	font-family:mr-eaves-xl-modern, sans-serif;
 }
 
 .header {
@@ -14,9 +22,15 @@ body {background-image: url("../images/background.jpg");
 	border-style:solid;
 }
 
+.nav-title {
+	font-family: mr-eaves-xl-modern, sans-serif;
+	font-size:20pt;
+}
+
 .left-menu {
-	float:left;
-	width:20%;
+	padding-top: 20px;
+	padding-left:20px;
+	font-family:mr-eaves-xl-modern, sans-serif;
 }
 
 .dropbtn {
@@ -26,29 +40,59 @@ body {background-image: url("../images/background.jpg");
   border: none;
 }
 
-.tree-button {
-	background-color: transparent;
-	border-color:transparent;
-	font-size: 21px;
-}
-
 .dropdown-menu:hover {
 	color:red;
 }
-a {
-	text-decoration: none;
+
+a { text-decoration: none;
 	padding-left:30px;
 	font-size:20px;
 	color:black;
 }
+
 a:hover {
 	color:red;
 }
 
-.big-leaf-maple{
-  float: right;
-  width: 50%;
+.main-bottom {
+	border:1px solid black;
+	display:grid;
+	grid-template-columns:20% 40% 40%;
 }
+
+.name {
+	text-align:center;
+}
+
+.big-leaf-maple {
+	width:550px;
+}
+
+.tl-leaf-image { 
+			align-items:center;
+			padding-left:10px;
+}
+
+.black-cottonwood {
+	width:505px;
+}
+
+.tr-leaf-image {
+	align-items:center;
+	padding-left:30px;
+}
+
+.red-alder-image {
+	width:400px;
+	padding-left:85px;
+}
+
+.vine-maple {
+	width:560px;
+}
+
+
+
 
 
 
