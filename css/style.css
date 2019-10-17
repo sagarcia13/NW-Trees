@@ -1,25 +1,48 @@
 body {background-image: url("../images/background.jpg");
 	background-size:cover;}
 
+header {
+	top-padding:30%;
+}
+
+.logo {
+	width:100%;
+}
 
 .title img {
 	width:50px;
 }
 
 .logo-text {
+	font-size:300%;
+}
+.logo-text, .name {
 	border:3px solid black;
-	padding:8px 10px;
-	margin-left:20px;
+	padding:1% 1%;
+	margin-left:1%;
 	font-family:mr-eaves-xl-modern, sans-serif;
+	font-size:3vw;
+}
+
+.name {
+	display: inline-block;
+	text-transform:uppercase;
+}
+
+.tree-name {
+	text-align:center;
 }
 
 .header {
 	padding:20px;
+	display:grid;
+	grid-template-columns: 4% 48% 48%;
 }
 
-.title {
-	font-size: 50px;
-	border-style:solid;
+.navigation {
+	font-family: mr-eaves-xl-modern, sans-serif;
+	font-size:1vw;
+	margin-top:3%;
 }
 
 .nav-title {
@@ -55,42 +78,87 @@ a:hover {
 }
 
 .main-bottom {
-	border:1px solid black;
 	display:grid;
-	grid-template-columns:20% 40% 40%;
+	grid-template-columns:50% 50%;
 }
 
 .name {
 	text-align:center;
 }
 
-.big-leaf-maple {
-	width:550px;
-}
-
 .tl-leaf-image { 
-			align-items:center;
-			padding-left:10px;
-}
-
-.black-cottonwood {
-	width:505px;
+			text-align:center;
+			size:100%;
 }
 
 .tr-leaf-image {
-	align-items:center;
-	padding-left:30px;
+	text-align:center;
 }
 
-.red-alder-image {
-	width:400px;
-	padding-left:85px;
+.bl-leaf-image, .br-lef.image {
+	text-align:center;
+}
+
+.subpage-layout {
+	display:grid;
+	grid-template-columns:20% 80%;
+}
+
+.links{
+	align-items: right;
+	font-size:1.5vw;
+}
+
+.black-cottonwood {
+	padding-top:3%;
+	padding-bottom: 4.5%;
 }
 
 .vine-maple {
-	width:560px;
+	padding-top:5%;
+	padding-bottom: 13pt;
 }
 
+.big-picture{
+	width:100%;
+}
+
+.subpage-tree-title {
+	font-family:mr-eaves-xl-modern, sans-serif;
+	font-size:200%;
+	display: inline-block;
+	border: 3px solid black;
+	padding:.2% .5%;
+	font-size:2vw;
+}
+
+.subpage-title {
+	padding-left:5.5%;
+	padding-bottom: 1%;
+}
+
+.body {
+	display:grid;
+	grid-template-columns:30% 70%;
+	font-family:mr-eaves-xl-modern, sans-serif;
+	padding:2% 5%;
+}
+
+.body-bold{
+	font-family: mr-eaves-xl-modern, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.body-text{
+	padding-top:1%;
+	padding-left:5%;
+	line-height:20px;
+}
+
+.short-description-titles {
+	line-height:20px;
+}
 
 
 
