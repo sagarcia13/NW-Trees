@@ -89,6 +89,7 @@ a:hover {
 .tl-leaf-image { 
 			text-align:center;
 			size:100%;
+
 }
 
 .tr-leaf-image {
@@ -109,9 +110,13 @@ a:hover {
 	font-size:1.5vw;
 }
 
+.big-leaf-maple{
+	padding-bottom: 1vw;
+}
+
 .black-cottonwood {
 	padding-top:3%;
-	padding-bottom: 4.5%;
+	padding-bottom: 7%;
 }
 
 .vine-maple {
@@ -158,6 +163,10 @@ a:hover {
 
 .short-description-titles {
 	line-height:20px;
+}
+
+.sub-page-body {
+	padding-top: 1vw;
 }
 
 
