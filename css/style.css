@@ -21,16 +21,23 @@ header {
 	padding:1% 1%;
 	margin-left:1%;
 	font-family:mr-eaves-xl-modern, sans-serif;
-	font-size:3vw;
+	font-size:4vw;
 }
 
 .name {
 	display: inline-block;
 	text-transform:uppercase;
+	font-size: 2vw;
 }
 
 .tree-name {
 	text-align:center;
+	color:black;
+	padding-bottom:3vw;
+}
+
+.tree-name:hover {
+	color:red;
 }
 
 .header {
@@ -67,11 +74,6 @@ header {
 	color:red;
 }
 
-a { text-decoration: none;
-	padding-left:30px;
-	font-size:20px;
-	color:black;
-}
 
 a:hover {
 	color:red;
@@ -108,6 +110,17 @@ a:hover {
 .links{
 	align-items: right;
 	font-size:1.5vw;
+	text-decoration: none;
+	padding-left:30px;
+	font-size:25px;
+	color:black;
+}
+
+.leaf-links {
+	text-decoration: none;
+	padding-left:30px;
+	font-size:20px;
+	color:black;
 }
 
 .big-leaf-maple{
@@ -115,13 +128,18 @@ a:hover {
 }
 
 .black-cottonwood {
-	padding-top:3%;
-	padding-bottom: 7%;
+	padding-top:7%;
+	padding-bottom: 6%;
 }
 
 .vine-maple {
-	padding-top:5%;
+	padding-top:3%;
 	padding-bottom: 13pt;
+}
+
+.red-alder-image {
+	padding-top:3vw;
+	padding-bottom:2vw;
 }
 
 .big-picture{
@@ -138,8 +156,8 @@ a:hover {
 }
 
 .subpage-title {
-	padding-left:5.5%;
-	padding-bottom: 1%;
+	padding-left:5.7vw;
+	padding-bottom: .5vw;
 }
 
 .body {
@@ -169,6 +187,10 @@ a:hover {
 	padding-top: 1vw;
 }
 
+.home-page-nav {
+	color:black;
+	text-decoration: none;
+}
 
 
 
