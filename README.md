@@ -1,28 +1,11 @@
-# Project One
-This is the template repository for the first major project in the Design 341 class at PSU.
+content:
+http://nativeplantspnw.com/big-leaf-maple-acer-macrophyllum/
+https://www.fs.fed.us/wildflowers/plant-of-the-week/populus_balsamifera.shtml
+http://nativeplantspnw.com/red-alder-alnus-rubra/
+http://nativeplantspnw.com/vine-maple-acer-circinatum/
 
-## To use this template:
-
-1. Click the "Fork" button in the upper right corner of this repository.
-
-2. Click on "Settings" and change the name to something better, like "project-one-four-poops", click the rename buton to save your changes.
-
-3. Open GitHub Desptop
-
-4. In the upper drop-down menu, choose: File > Clone Repository
-
-5. Mae sure the GitHub.com tab is highlighted with a blue underline
-
-6. click on the repository you just forked. If it doesn't show up, try searching for it in the filter field.
-
-7. Choose a Local Path or keep it at the default which goes to Documents/GitHub/ on your hard drive.
-
-8. Click the Clone button on the bottom to have GitHub Desktop fetch the files from GitHub.com and clone them to your hard drive.
-
-9. In the Upper drop down menu choose: Repository > Open in Sublime Text (or: Open in External Text Editor)
-
-10. Edit, save, commit, and push your files. Lather, rinse, repeat!
-
-
-
- 
+images:
+https://en.wikipedia.org/wiki/Acer_macrophyllum#/media/File:Acer_macrophyllum_1199.jpg
+https://barbarablackie.wordpress.com/plants/eastern-border-near-bluff/black-cottonwood/
+https://dissolve.com/stock-photo/USA-Washington-Olympic-National-Park-Alder-vine-maple-royalty-free-image/101-D256-22-696
+https://www.alamy.com/a-dense-woodland-of-red-alder-trees-near-forks-washington-usa-image178316660.html
