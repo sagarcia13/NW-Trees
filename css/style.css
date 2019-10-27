@@ -102,6 +102,10 @@ a:hover {
 	text-align:center;
 }
 
+.red-alder-image {
+	width:218pt;
+}
+
 .subpage-layout {
 	display:grid;
 	grid-template-columns:20% 80%;
